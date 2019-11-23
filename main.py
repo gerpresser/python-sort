@@ -16,6 +16,7 @@ if __name__ == "__main__":
     asc_array = array_crescente(n)
     desc_array = array_decrescente(n)
     
+    
     # Bubble Sort
     print("Starting Bubble Sort - RAND")
     st = time.time()
@@ -34,13 +35,6 @@ if __name__ == "__main__":
     bubble_sort(desc_array)
     print('Bubble sort took %.3f seconds' % ((time.time() - st)))
 
-
-    # --------------------------------------
-    # Cleaning possible 'cached' data
-    rand_array = array_aleatorio(n)
-    asc_array = array_crescente(n)
-    desc_array = array_decrescente(n)
-    # --------------------------------------
 
     # Insertion Sort
     print("-----------------")
@@ -62,13 +56,6 @@ if __name__ == "__main__":
     print('Insertion sort took %.3f seconds' % ((time.time() - st)))
 
 
-    # --------------------------------------
-    # Cleaning possible 'cached' data
-    rand_array = array_aleatorio(n)
-    asc_array = array_crescente(n)
-    desc_array = array_decrescente(n)
-    # --------------------------------------
-
     # Selection Sort
     print("-----------------")
     print("Starting Selection Sort - RAND")
@@ -88,13 +75,6 @@ if __name__ == "__main__":
     selection_sort(desc_array)
     print('Selection sort took %.3f seconds' % ((time.time() - st)))
 
-
-    # --------------------------------------
-    # Cleaning possible 'cached' data
-    rand_array = array_aleatorio(n)
-    asc_array = array_crescente(n)
-    desc_array = array_decrescente(n)
-    # --------------------------------------
 
     # Merge Sort
     print("-----------------")
@@ -116,13 +96,6 @@ if __name__ == "__main__":
     print('Merge sort took %.3f seconds' % ((time.time() - st)))
 
 
-    # --------------------------------------
-    # Cleaning possible 'cached' data
-    rand_array = array_aleatorio(n)
-    asc_array = array_crescente(n)
-    desc_array = array_decrescente(n)
-    # --------------------------------------
-
     # Quick Sort
     print("-----------------")
     print("Starting Quick Sort - RAND")
@@ -142,13 +115,6 @@ if __name__ == "__main__":
     quick_sort(desc_array)
     print('Quick sort took %.3f seconds' % ((time.time() - st)))
 
-
-     # --------------------------------------
-    # Cleaning possible 'cached' data
-    rand_array = array_aleatorio(n)
-    asc_array = array_crescente(n)
-    desc_array = array_decrescente(n)
-    # --------------------------------------
 
     # Heap Sort
     print("-----------------")
